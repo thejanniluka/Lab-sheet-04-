@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtfname"
+        android:layout_width="395dp"
+        android:layout_height="77dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="466dp"
+        android:hint="First Name">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="314dp"
+        android:text="SING UP"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="@android:color/black"/>
+
+</RelativeLayout>
