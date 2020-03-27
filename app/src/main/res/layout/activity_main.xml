@@ -17,20 +17,25 @@
         android:layout_alignParentBottom="true"
         android:layout_marginEnd="21dp"
         android:layout_marginBottom="466dp"
-        android:hint="First Name">
+        android:fontFamily="@font/alfa_slab_one"
+        android:hint=" Enter The First Name">
 
     </EditText>
 
     <Button
+
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="134dp"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginEnd="156dp"
-        android:layout_marginBottom="314dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="422dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/alfa_slab_one"
         android:text="SING UP"
-        android:background="@android:color/holo_blue_light"
-        android:textColor="@android:color/black"/>
+        android:textColor="@android:color/black" />
 
 </RelativeLayout>
